@@ -1,6 +1,6 @@
-document.getElementById("start").addEventListener("click touchstart", startTimer)
-document.getElementById("pause").addEventListener("click touchstart", pauseTimer)
-document.getElementById("reset").addEventListener("click touchstart", resetTimer)
+document.getElementById("start").addEventListener("click", startTimer)
+document.getElementById("pause").addEventListener("click", pauseTimer)
+document.getElementById("reset").addEventListener("click", resetTimer)
 function startTimer(){   
     setInterval("counter()", 1000)    
 }
