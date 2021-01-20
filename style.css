@@ -63,7 +63,11 @@ body {
     margin: 0 40px 0 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
+    .buttons .reset:hover, .pause:hover, .start:hover{
+        transform:none;
+    }
+    
     body {
         height: 100vh;
         width: auto;
